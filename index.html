@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type-"text/css" href="resources/css/style.css" />
+    <title>Player Stats Card</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <main id="stat__card">
+          <section class="dropdown">
+            <div class="player">
+              <form>
+                <select id="player__dropdown" name="Players">
+                  <option>Select a Player...</option>
+                </select>
+              </form>
+            </div>
+          </section>
+
+          <section class="player__image">
+            <img src="" id="player__image__main" />
+          </section>
+
+          <section class="stats">
+            <div class="badge__wrapper">
+              <span class="badge__image"> </span>
+            </div>
+            <h1 id="player__name"></h1>
+            <h3 id="position"></h3>
+            <table class="stats__table">
+              <tbody class="stats__body">
+                <tr>
+                  <th>Appearances</th>
+                  <td id="appearances"></td>
+                </tr>
+                <tr>
+                  <th>Goals</th>
+                  <td id="goals"></td>
+                </tr>
+                <tr>
+                  <th>Assists</th>
+                  <td id="assists"></td>
+                </tr>
+                <tr>
+                  <th>Goals per Match</th>
+                  <td id="goals__per__match"></td>
+                </tr>
+                <tr>
+                  <th>Passes per Minute</th>
+                  <td id="passes__per__minute"></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="resources/scripts/app.js" defer></script>
+  </body>
+</html>

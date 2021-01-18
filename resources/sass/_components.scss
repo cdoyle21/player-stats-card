@@ -1,0 +1,45 @@
+// DROPDOWN
+#player__dropdown {
+  width: 30rem;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: var(--color-grey-light-3);
+  border: hidden;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+// CLUB BADGE
+.badge__wrapper {
+  position: absolute;
+  top: 330px;
+  left: 230px;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0px;
+  display: grid;
+  transform: scale(0.8);
+  & .badge__image {
+    width: 100px;
+    height: 100px;
+    background: url(../images/badges_sprite.png);
+    background-position: 0px 0px;
+    margin: auto;
+    transform: scale(0.8);
+  }
+}
+
+// PLAYER NAME
+#player__name {
+  padding: 2.2rem 2.2rem 0;
+  font-size: 2.4rem;
+}
+
+// POSITION
+#position {
+  padding: 0 2.2rem;
+  font-size: 1.5rem;
+}

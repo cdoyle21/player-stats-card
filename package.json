@@ -1,0 +1,27 @@
+{
+  "name": "player-stats-card",
+  "version": "1.0.0",
+  "description": "A Player Stats Card created using HTML, JS, NodeJS and SASS for PulseLive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node ./resources/data/server.js",
+    "compile:sass": "node-sass ./resources/sass/main.scss ./resources/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdoyle21/player-stats-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdoyle21/player-stats-card/issues"
+  },
+  "homepage": "https://github.com/cdoyle21/player-stats-card#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
+}
